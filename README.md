@@ -5,24 +5,24 @@
 </p>
 
 <p align="center">
-  A portable Windows browser profile launcher built for isolated environments, fingerprint customization, and flexible profile management.
+  A portable Windows desktop launcher for managing isolated browser profiles with flexible environment and fingerprint customization.
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#system-requirements">Requirements</a> •
-  <a href="#premium">Premium</a> •
-  <a href="#release">Release</a>
+  <a href="https://github.com/phantomarray/phantom_array_launcher/releases/tag/v1.0.0">Download v1.0.0</a>
+  ·
+  <a href="https://github.com/phantomarray/phantom_array_launcher/releases">All Releases</a>
 </p>
 
 ---
 
 ## Overview
 
-**Phantom Array Launcher** is a portable Windows desktop application designed to make browser profile management simple, isolated, and highly customizable.
+**Phantom Array Launcher** is a portable Windows application built for users who need to create, manage, and launch separate browser profiles from one place.
 
-Each profile maintains its own browser environment, allowing you to create and manage separate configurations without relying on a traditional installation process.
+Each profile can maintain its own browser environment, fingerprint configuration, proxy settings, cookies, local data, and screen/window parameters.
+
+The launcher is distributed as a standalone executable — **no installer is required**.
 
 > **No installation. No mandatory account. One launcher. Multiple environments.**
 
@@ -30,82 +30,72 @@ Each profile maintains its own browser environment, allowing you to create and m
 
 ## Features
 
-### 🧩 Profile Management
+### Profile Management
 
-Create and manage multiple independent browser profiles from a single launcher.
+Manage multiple browser profiles from a single workspace.
 
-- Create, edit, duplicate, and delete profiles
-- Independent profile data and configuration
-- Persistent profile environments
-- Fast profile launching
-- Clean profile organization
+- Create and manage independent profiles
+- Edit profile configuration
+- Duplicate profiles
+- Delete profiles
+- Launch profiles independently
+- Persistent local profile data
 
-### 🛡️ Browser Environment Isolation
+### Browser Environment Customization
 
-Profiles are designed to operate as separate browser environments.
+Configure browser-environment parameters on a per-profile basis.
 
-Each profile can maintain its own:
+Supported areas include:
 
-- Browser configuration
 - Fingerprint configuration
-- Proxy configuration
-- Cookies and local data
-- Screen and window settings
-- Runtime environment
-
-### 🎭 Fingerprint Customization
-
-Customize browser fingerprint-related parameters on a per-profile basis.
-
-Supported configuration includes:
-
 - Canvas
 - ClientRects
 - Screen configuration
 - Window configuration
-- Browser environment parameters
-- Custom fingerprint profiles
+- Proxy configuration
+- Browser profile data
 
-The **Fingerprint Library** allows reusable fingerprint configurations to be imported and managed independently from individual browser profiles.
+### Fingerprint Library
 
-### 🌐 Proxy Support
+Create and reuse fingerprint configurations across profiles.
 
-Configure proxies on a per-profile basis.
+The Fingerprint Library supports importing fingerprint configuration data from files and applying reusable configurations to browser profiles.
 
-Supported proxy environments include:
+### Proxy Support
 
-- HTTP
-- SOCKS5
-- Authentication credentials
-- Proxy testing
-- Connection status
+Configure proxies independently for browser profiles.
+
+The launcher supports:
+
+- HTTP proxies
+- SOCKS5 proxies
+- Proxy authentication
+- Proxy connectivity testing
 - Geographic information
 - Cached proxy test results
 
-Proxy test results are cached to reduce unnecessary repeated network checks while keeping the environment responsive.
+Proxy test results are cached to reduce unnecessary repeated checks while keeping profile launches responsive.
 
-### 🖥️ Screen & Window Configuration
+### Screen & Window Configuration
 
-Profiles can define their own screen and browser-window parameters.
+Customize screen and browser-window parameters for individual profiles.
 
 This includes configurable values such as:
 
-- Screen dimensions
+- Screen width and height
 - Available screen dimensions
 - Color depth
 - Pixel depth
-- Window dimensions
+- Window width and height
 - Browser viewport dimensions
 
-This allows profiles to maintain consistent browser environments across launches.
+### Portable by Design
 
-### 📦 Portable
+Phantom Array Launcher is delivered as a portable Windows executable.
 
-Phantom Array Launcher is distributed as a standalone Windows executable.
+**No installer. No setup wizard.**
 
-**No installer is required.**
-
-Simply download the executable and run it.
+Download the executable, run it, and start using the launcher.
 
 ---
 
@@ -113,11 +103,159 @@ Simply download the executable and run it.
 
 ### 1. Download
 
-Download the latest Windows x64 release from the project's **Releases** page.
+Get the latest Windows x64 build from the GitHub Releases page:
 
-### 2. Launch
+**[Download Phantom Array Launcher v1.0.0](https://github.com/phantomarray/phantom_array_launcher/releases/tag/v1.0.0)**
 
-Run:
+### 2. Run
+
+Launch:
 
 ```text
 Phantom-Array-Launcher-portable-win-x64.exe
+```
+
+No installation is required.
+
+### 3. Create a Profile
+
+Create a new profile and configure its browser environment.
+
+### 4. Configure
+
+Customize the profile's fingerprint, proxy, screen, window, and other available settings.
+
+### 5. Launch
+
+Select the profile and launch its browser environment.
+
+---
+
+## System Requirements
+
+| Requirement | Specification |
+|---|---|
+| Operating System | Windows 10 / Windows 11 |
+| Architecture | x64 |
+| Installation | Not required |
+| Internet Connection | Required for network-dependent features |
+
+---
+
+## Premium
+
+Phantom Array Launcher includes an integrated Premium Store for premium products and services.
+
+Premium features and entitlements are managed through the launcher and may vary by release.
+
+For the current release, see the **Premium Store** inside the application.
+
+---
+
+## Privacy & Data
+
+Phantom Array Launcher is designed around local profile management and independent browser environments.
+
+Profile data is maintained locally on the user's machine.
+
+A mandatory user account is not required for local profile management.
+
+Internet connectivity may be required for network-dependent functionality, including:
+
+- Proxy testing
+- Geographic information
+- Premium license validation
+- Premium Store access
+
+---
+
+## Security
+
+Application and profile data use application-level protection and local machine identity binding.
+
+Premium licensing uses cryptographic validation designed to associate entitlements with the local environment.
+
+Security features are intended to protect application data and licensing integrity. No software can guarantee complete protection against reverse engineering or determined runtime tampering.
+
+---
+
+## Release
+
+### v1.0.0
+
+**Phantom Array Launcher v1.0.0** is the initial public release.
+
+**Platform:** Windows x64  
+**Distribution:** Portable executable  
+**Installer:** Not required
+
+**[Download Phantom Array Launcher v1.0.0 →](https://github.com/phantomarray/phantom_array_launcher/releases/tag/v1.0.0)**
+
+---
+
+## Versioning
+
+Releases follow semantic versioning:
+
+```text
+MAJOR.MINOR.PATCH
+```
+
+Examples:
+
+```text
+v1.0.0
+v1.0.1
+v1.1.0
+v2.0.0
+```
+
+---
+
+## Roadmap
+
+Phantom Array Launcher is under active development.
+
+Future releases may include improvements such as:
+
+- Performance optimizations
+- Additional fingerprint controls
+- Expanded profile management
+- Additional proxy capabilities
+- UI and workflow improvements
+- Additional Premium features
+
+The roadmap is subject to change as the product evolves.
+
+---
+
+## Support
+
+For bug reports, feature requests, and product-related discussions, please use the project's GitHub Issues or the appropriate support channel.
+
+When reporting an issue, include:
+
+- Phantom Array Launcher version
+- Windows version
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Relevant screenshots or logs
+
+---
+
+## Distribution & Source Code
+
+This repository is used to distribute the compiled Phantom Array Launcher application.
+
+The application's private source code is not included in the public repository.
+
+The distributed executable is proprietary software. Redistribution, modification, or reverse engineering is subject to applicable law and the terms under which the software is provided.
+
+---
+
+<p align="center">
+  <strong>Phantom Array Launcher</strong>
+  <br>
+  Every profile. A unique destiny.
+</p>
