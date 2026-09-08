@@ -28,8 +28,6 @@ The launcher is distributed as a standalone executable — **no installer is req
 
 ---
 
----
-
 ## Screenshots
 
 <p align="center">
