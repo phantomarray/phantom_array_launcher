@@ -28,6 +28,24 @@ The launcher is distributed as a standalone executable — **no installer is req
 
 ---
 
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/images/fingerprint-test-1.PNG" alt="Phantom Array Launcher">
+</p>
+
+<p align="center">
+  <img src="docs/images/fingerprint-test-2.PNG" alt="Phantom Array Launcher">
+</p>
+
+<p align="center">
+  <img src="docs/images/fingerprint-test-3.PNG" alt="Phantom Array Launcher">
+</p>
+
+---
+
 ## Features
 
 ### Profile Management
