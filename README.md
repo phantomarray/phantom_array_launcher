@@ -43,15 +43,43 @@ The launcher is distributed as a standalone executable.
 
 # Screenshots
 
-<p align="center">
-  <img src="docs/images/dashboard.PNG" width="45%" alt="Dashboard">
-  <img src="docs/images/shadowsocks.png" width="45%" alt="Shadowsocks">
-</p>
+<table>
+<tr>
+<td width="50%">
+<img src="docs/images/dashboard.PNG"
+     width="100%"
+     height="260"
+     style="object-fit: cover;"
+     alt="Dashboard">
+</td>
 
-<p align="center">
-  <img src="docs/images/fingerprint-test-1.PNG" width="45%" alt="Fingerprint Environment">
-  <img src="docs/images/sync-action.PNG" width="45%" alt="Synchronizer Action">
-</p>
+<td width="50%">
+<img src="docs/images/shadowsocks.png"
+     width="100%"
+     height="260"
+     style="object-fit: cover;"
+     alt="Shadowsocks">
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<img src="docs/images/fingerprint-test-1.PNG"
+     width="100%"
+     height="260"
+     style="object-fit: cover;"
+     alt="Fingerprint Environment">
+</td>
+
+<td width="50%">
+<img src="docs/images/sync-action.PNG"
+     width="100%"
+     height="260"
+     style="object-fit: cover;"
+     alt="Synchronizer Action">
+</td>
+</tr>
+</table>
 
 ---
 
