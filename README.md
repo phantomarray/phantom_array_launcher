@@ -50,7 +50,7 @@ The launcher is distributed as a standalone executable.
 
 <p align="center">
   <img src="docs/images/fingerprint-test-1.PNG" width="45%" alt="Fingerprint Environment">
-  <img src="docs/images/sync-action.png" width="45%" alt="Synchronizer Action">
+  <img src="docs/images/sync-action.PNG" width="45%" alt="Synchronizer Action">
 </p>
 
 ---
