@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://github.com/phantomarray/phantom_array_launcher/releases">Download</a>
   ·
-  <a href="https://github.com/phantomarray/phantom_array_launcher/releases">Releases</a>
+  <a href="https://github.com/phantomarray/phantom_array_launcher/releases/download/v1.0.0/Phantom-Array-Launcher-portable-win-x64.V2.exe">Latest</a>
 </p>
 
 ---
