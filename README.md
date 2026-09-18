@@ -1,7 +1,7 @@
 # Phantom Array Launcher
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="Phantom Array Launcher" width="900">
+  <img src="docs/images/banner.webp" alt="Phantom Array Launcher" width="900">
 </p>
 
 <p align="center">
