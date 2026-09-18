@@ -45,7 +45,7 @@ The launcher is distributed as a standalone executable.
 
 <p align="center">
   <img src="docs/images/dashboard.PNG" width="45%" alt="Dashboard">
-  <img src="docs/images/profile-manager.png" width="45%" alt="Profile Manager">
+  <img src="docs/images/shadowsocks.png" width="45%" alt="Shadowsocks">
 </p>
 
 <p align="center">
