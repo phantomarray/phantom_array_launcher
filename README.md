@@ -1,143 +1,262 @@
 # Phantom Array Launcher
 
 <p align="center">
+  <img src="docs/images/banner.png" alt="Phantom Array Launcher" width="900">
+</p>
+
+<p align="center">
   <strong>Every profile. A unique destiny.</strong>
 </p>
 
 <p align="center">
-  A portable Windows desktop launcher for managing isolated browser profiles with flexible environment and fingerprint customization.
+  A portable Windows desktop launcher for managing isolated browser environments,
+  customizable profiles, fingerprint configurations, and synchronized workflows.
 </p>
 
 <p align="center">
-  <a href="https://github.com/phantomarray/phantom_array_launcher/releases/tag/v1.0.0">Download v1.0.0</a>
+  <a href="https://github.com/phantomarray/phantom_array_launcher/releases">Download</a>
   ·
-  <a href="https://github.com/phantomarray/phantom_array_launcher/releases">All Releases</a>
+  <a href="https://github.com/phantomarray/phantom_array_launcher/releases">Releases</a>
 </p>
 
 ---
 
-## Overview
+# Overview
 
-**Phantom Array Launcher** is a portable Windows application built for users who need to create, manage, and launch separate browser profiles from one place.
+**Phantom Array Launcher** is a portable Windows application designed for creating,
+managing, and launching independent browser environments from a single workspace.
 
-Each profile can maintain its own browser environment, fingerprint configuration, proxy settings, cookies, local data, and screen/window parameters.
+Each profile maintains its own isolated configuration:
 
-The launcher is distributed as a standalone executable — **no application installer is required**.
+- Browser data
+- Cookies and local storage
+- Proxy configuration
+- Fingerprint configuration
+- Screen and window parameters
+- Runtime settings
+
+The launcher is distributed as a standalone executable.
 
 > **No installation. No mandatory account. One launcher. Multiple environments.**
 
 ---
 
-## Screenshots
+# Screenshots
 
 <p align="center">
-  <img src="docs/images/fingerprint-test-1.PNG" alt="Phantom Array Launcher">
+  <img src="docs/images/dashboard.png" width="45%" alt="Dashboard">
+  <img src="docs/images/profile-manager.png" width="45%" alt="Profile Manager">
 </p>
 
 <p align="center">
-  <img src="docs/images/fingerprint-test-2.PNG" alt="Phantom Array Launcher">
-</p>
-
-<p align="center">
-  <img src="docs/images/fingerprint-test-3.PNG" alt="Phantom Array Launcher">
+  <img src="docs/images/fingerprint-test-1.PNG" width="45%" alt="Fingerprint Environment">
+  <img src="docs/images/sync-action.png" width="45%" alt="Synchronizer Action">
 </p>
 
 ---
 
-## Features
+# Features
 
-### Profile Management
+## Profile Management
 
-Manage multiple browser profiles from a single workspace.
+Manage multiple independent browser environments.
 
-- Create and manage independent profiles
+Features:
+
+- Create profiles
 - Edit profile configuration
 - Duplicate profiles
 - Delete profiles
 - Launch profiles independently
 - Persistent local profile data
+- Portable profile management
 
-### Browser Environment Customization
+---
 
-Configure browser-environment parameters on a per-profile basis.
+# Fingerprint Environment
 
-Supported areas include:
+Phantom Array provides a configurable browser environment layer.
 
-- Fingerprint configuration
-- Canvas
-- ClientRects
-- Screen configuration
-- Window configuration
-- Proxy configuration
-- Browser profile data
+Supported components:
 
-### Fingerprint Library
+- Canvas configuration
+- ClientRects configuration
+- Screen parameters
+- Window parameters
+- Browser environment settings
+- Reusable fingerprint profiles
 
-Create and reuse fingerprint configurations across profiles.
+Fingerprint configurations can be stored,
+managed, and applied across profiles.
 
-The Fingerprint Library supports importing fingerprint configuration data from files and applying reusable configurations to browser profiles.
+---
 
-### Proxy Support
+# Custom Screen & Window Engine
 
-Configure proxies independently for browser profiles.
+Advanced control over browser-visible screen and window parameters.
 
-The launcher supports:
+Supported configuration:
+
+- Screen width and height
+- Available screen dimensions
+- Window dimensions
+- Browser viewport dimensions
+- Color depth
+- Pixel depth
+- Platform-specific geometry handling
+
+Each profile can maintain independent screen and window settings.
+
+---
+
+# ShadowShock Engine
+
+ShadowShock is an integrated environment processing layer
+for advanced profile customization.
+
+Capabilities:
+
+- Runtime environment processing
+- Modular environment adjustments
+- Profile-level configuration handling
+- Integrated launcher workflow
+
+---
+
+# Synchronizer Action
+
+Synchronizer Action provides coordinated actions
+across managed environments.
+
+Capabilities:
+
+- Action synchronization
+- Multi-profile operations
+- Workflow coordination
+- Centralized action management
+
+Designed for managing repeated operations
+across multiple profiles.
+
+---
+
+# Proxy Management
+
+Configure proxy environments independently per profile.
+
+Supported:
 
 - HTTP proxies
 - SOCKS5 proxies
 - Proxy authentication
-- Proxy connectivity testing
+- Connectivity testing
 - Geographic information
-- Cached proxy test results
+- Cached proxy validation results
 
-Proxy test results are cached to reduce unnecessary repeated checks while keeping profile launches responsive.
-
-### Screen & Window Configuration
-
-Customize screen and browser-window parameters for individual profiles.
-
-This includes configurable values such as:
-
-- Screen width and height
-- Available screen dimensions
-- Color depth
-- Pixel depth
-- Window width and height
-- Browser viewport dimensions
-
-### Portable by Design
-
-Phantom Array Launcher is delivered as a portable Windows executable.
-
-**No application installer. No setup wizard.**
-
-Download the executable, run it, and start using the launcher.
+Proxy results are cached to reduce repeated checks
+and improve launch responsiveness.
 
 ---
 
-## Getting Started
+# Portable Architecture
 
-### 1. Download
+Phantom Array Launcher is designed around separated modules:
 
-Get the latest Windows x64 build from the GitHub Releases page:
+```
+                    Phantom Array Launcher
 
-**[Download Phantom Array Launcher v1.0.0](https://github.com/phantomarray/phantom_array_launcher/releases/tag/v1.0.0)**
+                            UI
+                             |
+                    Runtime Manager
+                             |
+        -----------------------------------------
+        |                 |                     |
+ Fingerprint        Screen Engine       Synchronizer
+        |
+ Profile Storage
+        |
+ Runtime Configuration
+```
 
-### 2. WebView2 Runtime
+Each component is separated to keep profiles,
+configuration, and runtime data independently manageable.
 
-Phantom Array Launcher requires **Microsoft Edge WebView2 Runtime (Evergreen)**.
+---
 
-Most supported Windows systems already have WebView2 Runtime installed. If it is missing, install the official Microsoft WebView2 Runtime:
+# Portable by Design
 
-**[Download WebView2 Runtime — Windows x64](https://go.microsoft.com/fwlink/p/?LinkId=2124703)**
+Phantom Array Launcher runs as a portable Windows executable.
 
-This is Microsoft's official Evergreen Standalone Installer for Windows x64.
+Advantages:
 
-After installation, run the Phantom Array Launcher executable again.
+- No installer required
+- No setup wizard
+- Easy deployment
+- Portable runtime directory
+- Simple backup and migration
 
-### 3. Run
+Download the executable, run it,
+and start managing browser environments.
+
+---
+
+# Getting Started
+
+## 1. Download
+
+Get the latest Windows x64 build from GitHub Releases:
+
+**Download Phantom Array Launcher**
+
+---
+
+## 2. WebView2 Runtime
+
+Phantom Array Launcher requires:
+
+**Microsoft Edge WebView2 Runtime (Evergreen)**
+
+Most supported Windows systems already include it.
+
+If missing, install:
+
+**Microsoft WebView2 Runtime — Windows x64**
+
+After installation, restart Phantom Array Launcher.
+
+---
+
+## 3. Run
 
 Launch:
 
 ```text
 Phantom-Array-Launcher-portable-win-x64.exe
+```
+
+---
+
+# Roadmap
+
+Completed:
+
+- Profile management
+- Fingerprint environment
+- Proxy management
+- Custom screen/window engine
+- ShadowShock engine
+- Synchronizer Action
+- Runtime improvements
+
+Future improvements:
+
+- Additional environment modules
+- Extended profile management
+- More workflow capabilities
+- Further runtime optimizations
+
+---
+
+# License
+
+See repository license information.
